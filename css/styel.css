@@ -37,3 +37,7 @@ body{
     height: 150px;
     border-radius: 50%;
 }
+
+.project-container{
+    background-color:rgb(8, 180, 180) ;
+}
