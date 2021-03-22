@@ -12,7 +12,10 @@ body{
 }
 
 .navbar-container{
+    top:0 ;
     background-color: #262837;
+    position: sticky;
+    z-index: 2;
 }
 
 .about-container{
@@ -25,6 +28,10 @@ body{
 
 .bg-redtype{
     background-color: #F8857f;
+}
+
+.bg-redtype:hover{
+ color: black!important;
 }
 
 .redtype-color{
@@ -40,4 +47,14 @@ body{
 
 .project-container{
     background-color:rgb(8, 180, 180) ;
+}
+
+
+.form-container{
+    background-color: #474d5d;
+}
+
+
+.inner-form{
+    background-color: #585f73;
 }
